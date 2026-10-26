@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; */
+}
+body{
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-image: url(1.jpg);
+    color: azure;
+    padding-left: 30px;
+    height: 700px;
+    padding-top: 100px;
+}
+
+span {
+    color: rgb(78, 187, 16);
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    align-content: center;
+    color: azure;
+
+}
+
+nav {
+    background-image: url(1.jpg);
+    padding: 10px;
+    border: 1px solid white;
+    align-items: baseline;
+}
+#ff:hover{
+    padding: 0 0 50px 0;
+    margin: 10px;
+    font-size: 100px;
+}
+
+.pp {
+    padding: 10px;
+    background-image: url(1.jpg);
+    border: solid 1px white;
+    color: aliceblue;
+}
+
+#h1 {
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: chartreuse;
+}
+
+.mnbv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+  gap: 40px;
+
+
+}
+
+.bbvv {
+    width: 30%;
+    background-color: rgb(133, 31, 206);
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+   
+    
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+.bbvv:hover{
+    transform: scale(1.05);
+    transition: all ease 1s;
+    background-color: rgb(24, 121, 121);
+
+}
+section{
+    height: 200vh;
+    background-color: rgb(4, 4, 49);
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 4, 49);
+    color: aliceblue;
+    /* padding: 20px; */
+}
+@media screen and (min-width:10000px) {
+    .mnbv{
+        width: 100%;
+        gap: 40px;
+
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .mnbv{
+        width: 30%;
+        flex-direction: column;
+    }
+    
+}
+a:active{
+    color: aqua;
+    text-decoration: underline;
+}
+p::selection{
+color:red ;
+}
+button{
+    border: none;
+}
